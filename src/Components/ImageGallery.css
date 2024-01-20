@@ -1,0 +1,24 @@
+/* Add these styles to your existing CSS file or create a new ImageGallery.css file */
+
+.image-gallery-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-row {
+    display: flex;
+  }
+  
+  .gallery-image {
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
