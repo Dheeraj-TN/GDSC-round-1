@@ -1,7 +1,10 @@
 import React from "react";
 import "./Features.css";
 import { Fade } from "react-reveal";
-
+import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
+import TimerIcon from "@mui/icons-material/Timer";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import LocalDiningIcon from "@mui/icons-material/LocalDining";
 const Features = () => {
   return (
     <section className="features-section">
@@ -17,6 +20,7 @@ const Features = () => {
       <div className="features-container">
         <Fade up>
           <div className="feature-item">
+            <AllInclusiveIcon className="icons" />
             <h3 className="feature-heading">Up to 365 days/year</h3>
             <p className="feature-description">
               Never cook again! Our subscription plans include up to 365
@@ -26,7 +30,7 @@ const Features = () => {
         </Fade>
         <Fade up>
           <div className="feature-item">
-            <ion-icon name="ion-ios-infinite-outline">::before</ion-icon>
+            <TimerIcon className="icons" />
             <h3 className="feature-heading">Ready in 20 minutes</h3>
             <p className="feature-description">
               You're only twenty minutes away from your delicious and super
@@ -36,7 +40,7 @@ const Features = () => {
         </Fade>
         <Fade up>
           <div className="feature-item">
-            <i className="fas fa-seedling feature-icon"></i>
+            <LocalDiningIcon className="icons" />
             <h3 className="feature-heading">100% organic</h3>
             <p className="feature-description">
               All our vegetables are fresh, organic, and local. Animals are
@@ -46,7 +50,7 @@ const Features = () => {
         </Fade>
         <Fade up>
           <div className="feature-item">
-            <i className="fas fa-utensils feature-icon"></i>
+            <ShoppingCartIcon className="icons" />
             <h3 className="feature-heading">Order anything</h3>
             <p className="feature-description">
               We don't limit your creativity! Order whatever you feel like from

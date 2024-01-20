@@ -3,7 +3,7 @@
 .features-section {
     text-align: center;
     padding: 500px 0;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -36,7 +36,7 @@
   }
   
   .feature-item {
-    width: 100px;
+    width: 200px;
     padding: 20px;
     height: 400px;
     text-align: center;
@@ -45,20 +45,24 @@
     align-items: flex-start;
   }
   
-  .feature-icon {
-    font-size: 48px;
+  .icons {
     margin-bottom: 10px;
+    color: #fe7a36;
   }
-  
+  /* change the size of icons using mui */
+  .feature-item> .MuiSvgIcon-root{
+    font-size: 50px;
+
+}
   .feature-heading {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     text-align: left;
+    font-weight: 500;
   }
   
   .feature-description {
-    font-size: 16px;
-    color: #555;
+    font-size: 18px;
     text-align: left;
   }
   
